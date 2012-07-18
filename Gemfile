@@ -11,7 +11,7 @@ gem 'bson_ext'
 gem 'bson', '~> 1.6.2'
 gem 'execjs'
 gem 'therubyracer'
-
+gem "mongoid-paperclip", :require => "mongoid_paperclip"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
